@@ -1,0 +1,212 @@
+html{
+    background-image: url(img/fondo.jpg);
+}
+
+h1{
+    text-align: center;        
+    font-size: 30pt;
+    background-color: #8B374A;
+    height: 2cm;
+    color: white;
+    margin: 0%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{       
+    padding: 0px;      
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+    margin-top: 25px;
+    height: 1cm;    
+}
+
+li{        
+    display: flex;      
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;                         
+    
+}
+
+ul{            
+    height: 1cm;             
+    color: #8B374A;
+    font-style: oblique;
+    font-size: 19pt;    
+}
+
+ul:hover{
+    color:#a81f3f;
+    text-decoration: overline;
+}
+
+#somos{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #8B374A;
+    font-style: oblique;
+    font-size: 15pt;            
+
+    background-image: url(img/fondo.jpg);
+}
+
+#somos p{
+    margin: 0px 90px 20px 90px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30pt;
+    color: #8B374A;
+}
+
+img{
+    height: 250px;
+    width: 300px;
+    margin-top: 25px;    
+}
+
+.cartaPastel{
+    height: 400px;
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #8B374A;    
+}
+
+#op1, #op2, #op3{
+    margin: 0px 30px 0px 30px;
+}
+
+.opciones{
+    display: flex;      
+    flex-direction: row;  
+    justify-items: center;
+    align-items: center;               
+}
+
+.opciones h3{
+    color: white;
+    font-size: 17pt;
+    font-style: oblique;
+    text-align: center;
+}
+
+.opciones p{
+    margin: 0px;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 14pt;
+    font-style: oblique;
+    text-align: center;
+}
+
+#adornos{
+    height: auto;        
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #8B374A;        
+
+    overflow: hidden;
+    width: 100%;
+}
+
+#dec1, #dec2, #dec3, #dec4{
+    margin: 0 30px 0 30px;
+}
+
+#formulario{    
+    display:flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+    margin-top: 5px;    
+}
+
+.pedido{        
+    width: 450px;        
+    background-color: #8B374A;
+    padding: 30px;   
+    margin: 0;             
+}
+
+.controls{
+    width: 400px;
+    background-color: #8d5a66;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #884a58;
+
+    font-size: 13pt;
+    font-style: oblique;
+    color: white;
+
+}
+
+.pedido .boton{
+    width: 420px;
+    background-color: #a15265;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 12pt;
+}
+
+#informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;        
+}
+
+table{
+    background-color: #8B374A;
+    text-align: left;
+    border-collapse: collapse;
+    width: 700px;
+}
+
+td, th{
+    border: solid 1px white;
+    padding: 20px;
+    
+    color: white;
+    font-size: 12pt;
+    font-style: oblique;    
+    text-align: center;
+}
+
+footer{        
+    background-color: #8B374A;
+}
+
+
+footer h2{
+    color: white;
+    font-size: 12pt;
+    margin: 40px 0 0 0 ;
+    padding: 10px 0;
+}
